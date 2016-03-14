@@ -4,7 +4,7 @@
 	Movie Me Main Stylesheet
 
 	- - - - - Contents - - - - -
-	
+
 	01 - Basic Settings CSS
 	02 - Navigation
 	03 - Owl Slider Controls Reset CSS
@@ -29,10 +29,10 @@
 
 	17 - Waypoints
 	18 - Your CSS Code
-	
+
 	- - - - - - - - - - - - - -
-	
-*/	
+
+*/
 
 
 /* 01 - Basic Settings CSS
@@ -50,7 +50,7 @@
 }
 
 .font-similar {
-	font-family: 'JournalRegular', Arial, sans-serif; 
+	font-family: 'JournalRegular', Arial, sans-serif;
 	color:#bebebe;
 	font-size: 42px;
 	line-height: 56px;
@@ -183,14 +183,14 @@ iframe {
 	right: 0;
 
 	background: rgba(0,0,0,0.6) url(../img/overlay-pat.png);
-		
+
 }
 
-input::-moz-focus-inner { 
-  border: 0 !important; 
+input::-moz-focus-inner {
+  border: 0 !important;
 }
 
-object, embed { 
+object, embed {
   outline: 0 !important;
 }
 
@@ -234,11 +234,11 @@ a:focus {
 textarea::-webkit-scrollbar {
     width: 12px;
 }
- 
+
 textarea::-webkit-scrollbar-track {
     background: #3c3c3c;
 }
- 
+
 textarea::-webkit-scrollbar-thumb {
 	background: #333;
 	border: 1px solid #3c3c3c;
@@ -329,7 +329,7 @@ textarea:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -346,7 +346,7 @@ textarea:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -529,7 +529,7 @@ body {
 	.navbar-custom .nav li a{
 		border-bottom: 0px !important;
 	}
-	
+
 }
 
 
@@ -566,7 +566,7 @@ body {
 		float: right;
 		margin-right: 0px;
 	}
-	
+
 	.owl-controls .owl-prev {
 		float: left;
 		margin-left: 0px;
@@ -666,11 +666,11 @@ body {
 
 .media-btns .btn {
 	padding: 12px 24px;
-} 
+}
 
 .media-btns .btn .fa {
 	margin-left: 15px;
-} 
+}
 
 .media-btns .btn {
 	width: 170px;
@@ -705,7 +705,7 @@ body {
 .pause-btn:focus, .play-btn:focus {
     outline: 0;
     color: #fff;
-	background: #fb0000;	
+	background: #fb0000;
 	border: 2px solid #fb0000;
 }
 
@@ -783,7 +783,7 @@ body {
 		top: 70px;
 		bottom:0;
 	}
-	
+
 	.video-content h3 {
 		font-size: 32px !important;
 		font-weight: 600;
@@ -875,10 +875,10 @@ body {
 
 #owl-intro .item p {
 	text-align: center;
-	display:block; 
+	display:block;
 	width: 100%;
 }
- 
+
 #owl-intro .item {
 	padding: 30px 0 0px;
 	overflow:hidden;
@@ -947,7 +947,7 @@ body {
 		float: right;
 		margin-right: -34px;
 	}
-	
+
 	#owl-intro .owl-controls .owl-prev {
 		float: left;
 		margin-left: -34px;
@@ -1010,7 +1010,7 @@ body {
 }
 
 @media(max-width:380px) {
-	
+
 	.flip-clock-wrapper .flip {
 		width: 60px !important;
 		margin: 4px;
@@ -1024,13 +1024,13 @@ body {
 -----------------------------------------------------------*/
 
 .more {
-	text-align: center; 
-	position: relative; 
-	bottom:0px; 
+	text-align: center;
+	position: relative;
+	bottom:0px;
 	width: 100px;
 	height: 100px;
-	display:inline-block; 
-	z-index:100; 
+	display:inline-block;
+	z-index:100;
 	left: 50%;
 	margin-left: -50px;
 	border-radius: 50%;
@@ -1039,13 +1039,13 @@ body {
 }
 
 .more a {
-	font-size: 36px; 
+	font-size: 36px;
 	color: #fff;
 	line-height: 86px;
 }
 
 .more a:hover {
-	text-decoration:none; 
+	text-decoration:none;
 	color: #fb0000;
 }
 
@@ -1053,7 +1053,7 @@ body {
 	background: url(../img/movie-avatar-bg.png) no-repeat top left;
 	width: 383px;
 	height: 518px;
-	padding-top: 3px; 
+	padding-top: 3px;
 	padding-left: 3px;
 	margin-bottom: 25px;
 	position:relative;
@@ -1070,7 +1070,7 @@ body {
 
 .movie-disc:hover {
 	background-position: bottom right;
-	
+
 }
 
 .movie-avatar-img {
@@ -1093,15 +1093,15 @@ body {
 }
 
 @media(max-width:420px) {
-	
+
 	.movie-avatar {
 		max-width: 100%;
 	}
-	
+
 	.movie-avatar-img {
 		max-width: 100%;
 	}
-	
+
 
 	.movie-disc {
 		background: none;
@@ -1256,7 +1256,7 @@ h1.section-title:after{
 }
 
 .features-wrap div {
-	
+
 	border: 2px solid #323232;
 
 	width: 100%;
@@ -1356,7 +1356,7 @@ h1.section-title:after{
 	background-color: none;
 	border: 2px solid #333333;
 	border-radius: 3px;
-	
+
 }
 
 .panel {
@@ -1372,14 +1372,14 @@ h1.section-title:after{
 
 .panel-group .panel-heading + .panel-collapse .panel-body {
 	border-top: 2px solid #333333;
-	
+
 }
 
 .panel-default > .panel-heading + .panel-collapse .panel-body {
 	border-top: 2px solid #333333;
 	background: #383838;
 	color: #bebebe;
-	
+
 }
 
 .panel-title span {
@@ -1402,7 +1402,7 @@ h1.section-title:after{
 	width: 100%;
 	height: 100%;
 	background: url(../img/movie-player-element.png) center center no-repeat;
-	background-size: cover;		
+	background-size: cover;
 }
 
 #movie-player .container {
@@ -1436,7 +1436,7 @@ h1.section-title:after{
 	border-top: 1px solid #333333;
 	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1);
 	-moz-box-shadow:    inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1);
-	box-shadow:         inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1);	
+	box-shadow:         inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1);
 	background: url(../img/damper-pat.png) repeat left top;
 	-webkit-transition: all 1.6s ease-in-out;
     -moz-transition: all 1.6s ease-in-out;
@@ -1526,7 +1526,7 @@ h1.section-title:after{
 }
 
 .actor .details h5 {
-	
+
 }
 
 .actor .social {
@@ -1554,7 +1554,7 @@ h1.section-title:after{
 	line-height: 44px;
 	margin: 0 8px;
 	}
-	
+
 .actor .social > li > a:hover {
 	background: none repeat scroll 0 0 #fff;
 	color: #fb0000;
@@ -1633,7 +1633,7 @@ h1.section-title:after{
 .actor-info .heading {
 	color: #fff;
 	font-weight: 600;
-	font-size: 19px;	
+	font-size: 19px;
 	text-align: center;
 	margin-bottom: 12px;
 }
@@ -1801,7 +1801,7 @@ h1.section-title:after{
 
 #reviews {
 	padding: 54px 0px;
-	background: #333333;	
+	background: #333333;
 }
 
 #reviews .section-title {
@@ -1967,13 +1967,13 @@ h1.section-title:after{
 		float: left;
 		width: 100%;
 	}
-	
+
 	#blog .next-blog-item {
 		float: left;
 		width: 100%;
-		
+
 	}
-	
+
 	#blog .blog-item {
 		float: left;
 		width: 100%;
@@ -1986,7 +1986,7 @@ h1.section-title:after{
 	position:relative;
 	height: 100%;
 }
-	
+
 .blog-item-info {
 	width: 15%;
 	height: 100%;
@@ -2177,14 +2177,14 @@ h1.section-title:after{
     .social-buttons li {
 		width: 100%;
     }
-	
+
 	.social-buttons li .fa {
 		font-size: 62px;
 	}
 }
 
 .footer-line {
-	height: 3px; 
+	height: 3px;
 	background: #fb0000;
 	bottom: 0;
 	position:relative;
@@ -2203,7 +2203,7 @@ h1.section-title:after{
 
 #page-name {
 	padding: 160px 0px 120px 0px;
-	background:url(../img/video-img.jpg) center center no-repeat;
+	background:url(../img/yggdrasil.jpg) center center no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 	position:relative;
@@ -2329,7 +2329,7 @@ h1.section-title:after{
 	border-bottom: 1px solid #333333;
 	-webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;	
+    transition: all .3s ease-in-out;
 }
 
 .sidebar-categories li a {
@@ -2455,7 +2455,7 @@ h1.section-title:after{
 	display: table;
 }
 
-.tags-list li a:before { 
+.tags-list li a:before {
 	content:'';
 	width: 6px;
 	height: 6px;
@@ -2474,7 +2474,7 @@ h1.section-title:after{
 }
 
 
-/*  16 - 02 Blog Page 
+/*  16 - 02 Blog Page
 -----------------------------------------------------------*/
 
 .blog-item-full {
@@ -2516,7 +2516,7 @@ blockquote {
 	border-left: none;
 	line-height: normal;
 	font-weight: 400;
-	
+
 }
 
 blockquote:before {
@@ -2551,7 +2551,7 @@ blockquote:before {
 
 .blog-extra {
 	border-bottom: 1px solid #fb0000;
-	padding: 0px 0px 26px 0px; 
+	padding: 0px 0px 26px 0px;
 	margin-bottom: 60px;
 }
 
@@ -2622,7 +2622,7 @@ position:absolute;
 }
 
 .comment-reply-link .fa {
-	margin: 0px 8px;	
+	margin: 0px 8px;
 }
 
 .comments-area .comment .comment-info {
@@ -2815,7 +2815,7 @@ position:absolute;
 	min-height: 100%;
 	width: 100%;
 	position:relative;
-	background: url(../img/404-page-bg.jpg) top center no-repeat;
+	background: url(../img/404-page-bg.jpg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-font-smoothing: subpixel-antialiased;
