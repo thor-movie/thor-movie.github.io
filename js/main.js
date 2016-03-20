@@ -63,9 +63,9 @@ window.setInterval(function() {
 jQuery(document).ready(function($) {
 	"use strict";
 	$('#counters').appear(function() {
-	$('#counter-1').animateNumber({ number: 1024 }, 2000 );
-	$('#counter-2').animateNumber({ number: 2360 }, 2000 );
-	$('#counter-3').animateNumber({ number: 1586 }, 2000 );
+	$('#counter-1').animateNumber({ number: 3 }, 2000 );
+	$('#counter-2').animateNumber({ number: 10000 }, 2000 );
+	$('#counter-3').animateNumber({ number: 10 }, 2000 );
 	},{accX: 0, accY: -200});
 
 

@@ -1460,6 +1460,9 @@ h1.section-title:after{
 -----------------------------------------------------------*/
 
 #actors {
+	background: url(../img/curtains.jpg) no-repeat;
+	-webkit-transition: all 1.6s ease-in-out;
+    -moz-transition: all 1.6s ease-in-out;
 	padding: 60px 0px 0px 0px;
 }
 
@@ -1679,7 +1682,10 @@ h1.section-title:after{
 	margin-top: 20px;
 	padding-top: 30px;
 	padding-bottom: 20px;
-	background: #333333;
+	/*background: #333333;*/
+	background: url(../img/oscars.jpg) repeat left;
+	-webkit-transition: all 1.6s ease-in-out;
+    -moz-transition: all 1.6s ease-in-out;
 }
 
 .advantages-item {
